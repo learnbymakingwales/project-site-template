@@ -6,3 +6,5 @@ hidetitle: True
 ---
 
 Hello world
+
+See [updates](/en/updates).

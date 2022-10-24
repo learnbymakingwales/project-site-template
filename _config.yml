@@ -16,11 +16,11 @@ plugins:
 
 t:
   en:
-    title: Title
+    title: Site title
     language: English
     root: /en
   cy:
-    title: Teitl
+    title: Teitl y safle
     language: Cymraeg
     root: /cy
 

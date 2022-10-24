@@ -6,3 +6,5 @@ hidetitle: True
 ---
 
 Helo Byd
+
+Gweld [diweddariadau](/cy/updates)
