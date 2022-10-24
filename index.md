@@ -1,8 +1,8 @@
 ---
 layout: landing
 lang: en
-ref: index
 hidetitle: True
+redirect: "/en/"
 ---
 
-Hello world
+Redirect to [/en/](/en)
