@@ -3,6 +3,8 @@
 
 <main class="main">
 
+  {% include language-switcher.html pages=site.posts %}
+
   <h3>{{ site.t[page.lang].title }}</h3>
 
   <h1>{{ page.title }}</h1>

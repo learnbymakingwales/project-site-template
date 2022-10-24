@@ -3,7 +3,9 @@
 
 <main class="main">
 
-  <h1>Welcome to {{ site.t[page.lang].title }}</h1>
+  {% include language-switcher.html pages=site.pages %}
+
+  <h1>{{ site.t[page.lang].welcome }} {{ site.t[page.lang].title }}</h1>
   <div class="lbm-container lbm-markdown-output">
     {{ content }}
   </div>

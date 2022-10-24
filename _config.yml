@@ -19,8 +19,10 @@ t:
     title: Site title
     language: English
     root: /en
+    welcome: Welcome to
   cy:
     title: Teitl y safle
     language: Cymraeg
     root: /cy
+    welcome: Croeso i
 
