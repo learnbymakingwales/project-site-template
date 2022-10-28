@@ -14,6 +14,24 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
+
+# Site navigation - each item must have a label and a url.
+navigation:
+  - text: Team
+    url: /team/
+  - text: Updates
+    url: /updates/
+
+# Colours
+accent_color: '#2d72d9'
+
 t:
   en:
     title: Site title
