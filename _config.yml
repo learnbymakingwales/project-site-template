@@ -17,11 +17,13 @@ plugins:
 t:
   en:
     title: Site title
+    description: "Describe your site"
     language: English
     root: /en
     welcome: Welcome to
   cy:
     title: Teitl y safle
+    description: "Describe your site"
     language: Cymraeg
     root: /cy
     welcome: Croeso i
