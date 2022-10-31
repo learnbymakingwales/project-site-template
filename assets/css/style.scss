@@ -30,15 +30,20 @@ $font: (
 );
 
 // Palette.
+{% assign theme = site.theme_color | default: '#2d72d9' %}
 {% assign accent = site.accent_color | default: '#2d72d9' %}
+{% assign text_colour = site.text_color | default: '#0A0908' %}
+{% assign link_colour = site.link_color | default: '#3E81A3' %}
 $palette: (
+  theme:    {{ theme }},
   accent:    {{ accent }},
-  primary:   #6b747a,
-  secondary: #2c343c,
-  meta:      #9ba6ad,
+  primary:   {{ text_colour }},
+  secondary: #20201D,
+  meta:      #606057,
   border:    #d7d7d7,
   bg:        #fbfbfb,
-  lighttext: #ffffff
+  lighttext: #ffffff,
+  linkcolour: {{ link_colour }}
 );
 
 // Imports
@@ -61,10 +66,13 @@ $palette: (
 @import "buttons";
 
 :root {
+  --theme-colour: {{ theme }};
   --accent-colour: {{ accent }};
+  --text-colour: {{ text_colour }};
   --light-text-colour: #{_palette(lighttext)};
-  --button-colour: var(--accent-colour);
-  --button-hover-colour: #{darken({{ accent }}, 5)};
+  --link-text-colour: {{ link_colour }};
+  --button-colour: var(--theme-colour);
+  --button-hover-colour: #{darken({{ theme }}, 5)};
   
   --content-width: 820px;
 }

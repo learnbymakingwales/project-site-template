@@ -73,6 +73,8 @@
 }
 
 .app-menu-item {
+  font-weight: 700;
+
   a {
     display: block;
     padding: 10px 0;
@@ -82,7 +84,7 @@
     }
 
     @include mq($from: tablet) {
-      padding: 5px 15px;
+      padding: 5px 30px;
     }
   }
 }
@@ -92,5 +94,9 @@
     display: block;
     margin-top: 5px;
     border-top: 1px solid var(--accent-colour);
+
+    @include mq($from: tablet) {
+      border-top: none;
+    }
   }
 }

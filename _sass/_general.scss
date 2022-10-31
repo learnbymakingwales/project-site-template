@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  color: _palette(accent);
+  color: _palette(linkcolour);
   text-decoration: none;
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
@@ -319,8 +319,8 @@ video {
   &:hover,
 	&:focus,
 	&:active {
-		border-color: _palette(accent);
-    color: _palette(accent);
+		border-color: _palette(theme);
+    color: _palette(theme);
 		outline: 0;
 	}
 }

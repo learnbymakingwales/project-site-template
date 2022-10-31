@@ -30,7 +30,10 @@ navigation:
     url: /updates/
 
 # Colours
+theme_color: '#326A85'
 accent_color: '#326A85'
+text_color: '#0A0908'
+link_color: '#3E81A3'
 
 t:
   en:
