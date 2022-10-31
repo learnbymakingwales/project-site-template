@@ -6,6 +6,10 @@
   padding: 5px 0;
   border-bottom: 5px solid var(--accent-colour);
 
+  @include mq($from: tablet) {
+    padding: $gutter-half;
+  }
+
   input[type=checkbox] {
     width: 0;
     height: 0;
@@ -35,9 +39,10 @@
 .app-language-switcher {
   order: 3;
   margin-right: 15px;
+  padding: 3px 8px;
 
   @include mq($from: tablet) {
-    padding: 5px 0 5px 15px;
+    padding: 5px 15px;
     order: 3;
   }
 }
@@ -64,7 +69,6 @@
   @include mq($from: tablet) {
     display: flex;
     justify-content: right;
-    border-right: 1px solid grey;
   }
 }
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-lang: en
+lang: cy
 ref: team-page
 hidetitle: True
 section: team

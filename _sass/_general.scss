@@ -11,13 +11,8 @@ textarea {
 }
 
 html {
-  border: 15px solid _palette(accent);
+  font-size: 100%;
   box-sizing: border-box;
-
-  @media only screen and (max-width: 600px) {
-    border-width: 5px;
-    font-size: 100%;
-  }
 }
 
 body {
@@ -251,18 +246,18 @@ video {
 @media only screen and (min-width: 851px) {
   .width-full img,
   .width-wide img {
-    margin-left: calc(425px - 50vw);
-    margin-right: calc(425px - 50vw);
+    margin-left: calc((var(--content-width) / 2) + #{$gutter} - 50vw);
+    margin-right: calc((var(--content-width) / 2) + #{$gutter} - 50vw);
     max-width: none;
-    width: calc(100vw - 90px);
+    width: calc(100vw - #{$gutter * 2});
   }
 }
 
 @media only screen and (min-width: 971px) {
   .width-wide img {
-    margin-left: -60px;
-    margin-right: -60px;
-    width: 880px;
+    margin-left: -($gutter * 1.5);
+    margin-right: -($gutter * 1.5);
+    width: calc(var(--content-width) + (#{$gutter} * 3));
   }
 }
 

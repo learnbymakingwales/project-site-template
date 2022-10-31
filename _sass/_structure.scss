@@ -2,7 +2,12 @@
    3. Structure
    ========================================================================== */
 
-.inner {
+.main {
   margin: 0 auto;
-  max-width: 760px;
+  padding: $gutter $gutter-half;
+  max-width: var(--content-width);
+  
+  @include mq($from: tablet) {
+    padding: $gutter;
+  }
 }
