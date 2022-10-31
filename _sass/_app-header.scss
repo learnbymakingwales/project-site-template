@@ -28,6 +28,10 @@
     @include mq($from: tablet) {
       display: none;
     }
+
+    span {
+      display: inline-block;
+    }
   }
 }
 
@@ -97,6 +101,14 @@
 
     @include mq($from: tablet) {
       border-top: none;
+    }
+  }
+
+  & ~ .app-menu__toggle {
+    padding: 5px 15px 2px;
+
+    span {
+      border-bottom: 3px solid var(--theme-colour);
     }
   }
 }
