@@ -24,9 +24,11 @@ defaults:
 
 # Site navigation - each item must have a label and a url.
 navigation:
-  - text: Team
+  - en: team
+    cy: tîm
     url: /team/
-  - text: Updates
+  - en: updates
+    cy: diweddariadau
     url: /updates/
 
 # Colours

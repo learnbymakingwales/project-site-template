@@ -46,7 +46,7 @@
         {% assign current = 'app-menu-item--current' %}
         {% endif %}
         <li class="app-menu-item {{ current }}">
-          <a class="{{ current }}" href="{{ site.t[page.lang].root }}{{ item.url }}">{{ item.text }}</a>
+          <a class="{{ current }}" href="{{ site.t[page.lang].root }}{{ item.url }}">{{ item[page.lang] | capitalize }}</a>
         </li>
         {% endfor %}
       </ul><!-- .menu -->
