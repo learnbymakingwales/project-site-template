@@ -6,6 +6,6 @@ hidetitle: True
 section: team
 ---
 
-# The team
+# Y tîm
 
 {% include_relative _members/team-member-1.md %}

@@ -42,10 +42,12 @@ t:
     language: English
     root: /en
     welcome: Welcome to
+    team: team
   cy:
     title: Teitl y safle
-    description: "Describe your site"
+    description: "Disgrifiwch eich gwefan"
     language: Cymraeg
     root: /cy
     welcome: Croeso i
+    team: tîm
 
