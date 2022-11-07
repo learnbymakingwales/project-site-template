@@ -45,6 +45,8 @@ t:
     root: /en
     welcome: Welcome to
     team: team
+    by: by
+    share: share
   cy:
     title: Teitl y safle
     description: "Disgrifiwch eich gwefan"
@@ -52,4 +54,6 @@ t:
     root: /cy
     welcome: Croeso i
     team: tîm
+    by: gan
+    share: rhannu
 
