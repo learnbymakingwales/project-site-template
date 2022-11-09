@@ -1,1 +1,7 @@
 # project-site-template
+
+This is a template repo.
+
+Use it to quickly setup a site, hosted on GitHub, for your project or team.
+
+We use it in our [learn by making labs](https://learnbymaking.wales/en/the-labs/) to encourage participants to work in the open and regularly share what they are learning.
