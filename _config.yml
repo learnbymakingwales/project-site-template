@@ -35,7 +35,11 @@ navigation:
 theme_color: '#326A85'
 accent_color: '#326A85'
 text_color: '#0A0908'
+secondary_text_color: '#20201D'
 link_color: '#3E81A3'
+background_color: '#fbfbfb'
+page_color: '#ffffff'
+border_color: '#d7d7d7'
 
 t:
   en:

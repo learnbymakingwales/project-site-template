@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .site-header {
-  border-bottom: 1px solid _palette(border);
+  border-bottom: 1px solid var(--border-colour);
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
@@ -70,7 +70,7 @@
 
 /* Site description */
 .site-description {
-  border-bottom: 1px solid _palette(border);
+  border-bottom: 1px solid var(--border-colour);
   font-family: _font(secondary);
   font-size: 1.33333em;
   font-style: italic;
@@ -133,7 +133,7 @@
   }
 
   .menu-item {
-    border-bottom: 1px solid _palette(border);
+    border-bottom: 1px solid var(--border-colour);
     display: block;
     margin: 0;
     &:last-child {
