@@ -29,7 +29,7 @@ a {
   -webkit-transition: color .3s ease;
   transition: color .3s ease;
   &:hover {
-    color: _palette(secondary);
+    color: var(--secondary-text-colour);
     text-decoration: underline;
   }
 }
@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: _palette(secondary);
+  color: var(--secondary-text-colour);
   font-family: _font(secondary);
   font-weight: bold;
   line-height: 1.2;
@@ -137,7 +137,7 @@ pre {
 
 blockquote {
   border-left: 3px solid var(--accent-colour);
-  color: _palette(secondary);
+  color: var(--secondary-text-colour);
   font-family: _font(secondary);
   font-style: italic;
   margin: 1.66667em 0;
@@ -211,7 +211,7 @@ td {
 }
 
 th {
-   color: _palette(secondary);
+   color: var(--secondary-text-colour);
    font-weight: bold;
 }
 
@@ -291,13 +291,13 @@ video {
 /* Text selection */
 ::-moz-selection {
   background: #e4edfa;
-  color: _palette(secondary);
+  color: var(--secondary-text-colour);
   text-shadow: none;
 }
 
 ::selection {
   background: #e4edfa;
-  color: _palette(secondary);
+  color: var(--secondary-text-colour);
   text-shadow: none;
 }
 
