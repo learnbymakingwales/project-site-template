@@ -1,3 +1,5 @@
+[Back to documentation index](./README.md)
+
 # Create a new post
 
 When you create a new post you should create both an English and Welsh version.
