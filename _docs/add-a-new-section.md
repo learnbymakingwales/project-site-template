@@ -1,3 +1,5 @@
+[<< Back to documentation index](./README.md)
+
 # Add a new section to your site
 
 Decide on the name of your new section.

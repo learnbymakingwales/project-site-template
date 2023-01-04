@@ -1,3 +1,5 @@
+[<< Back to documentation index](./README.md)
+
 # Change the site name
 
 The site name is a configurable option.

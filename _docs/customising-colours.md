@@ -1,3 +1,5 @@
+[<< Back to documentation index](./README.md)
+
 # Customise the colours
 
 Some of the colours of the template project site are customisable.
